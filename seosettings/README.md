@@ -1,4 +1,4 @@
-### **SEO-Grundkonfiguration in Joomla 5.2: Schritt für Schritt**
+# **SEO-Grundkonfiguration in Joomla 5.2: Schritt für Schritt**
 
 Die richtige URL-Struktur ist ein entscheidender Faktor für eine erfolgreiche SEO-Strategie. URLs sind oft das Erste, was Nutzer und Suchmaschinen sehen. Saubere und gut strukturierte URLs helfen, Inhalte besser zu verstehen und wirken sich positiv auf die Benutzerfreundlichkeit aus. In diesem Artikel zeige ich dir, wie du die URL-Struktur und SEO-Einstellungen in Joomla 5.2 optimierst, und erkläre die Vorteile jeder Einstellung im Detail.
 
