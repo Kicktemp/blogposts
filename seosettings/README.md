@@ -319,19 +319,6 @@ Hacker könnten diese Information nutzen, um gezielt Schwachstellen in älteren 
 
 ---
 
-#### **5.5 Meta-Titel und -Beschreibung vererben**
-
-Meta-Titel und -Beschreibungen können in Joomla automatisch vererbt werden. Wenn ein Menüpunkt z. B. den Titel „Über uns“ hat, wird dieser Titel auch für den verknüpften Beitrag übernommen, sofern der Beitrag keine eigene Beschreibung oder keinen eigenen Titel hat.
-
-- **Beispiel:**
-  - Menü-Titel: `Über uns`
-  - Beitrag ohne eigenen Meta-Titel: Vererbt den Titel „Über uns“
-
-**Vorteil:**  
-Diese Vererbung spart Zeit bei der Erstellung von Beiträgen. Dennoch ist es wichtig, für wichtige Seiten individuelle Meta-Daten zu setzen, um die Inhalte besser hervorzuheben.
-
----
-
 Mit diesen SEO-Einstellungen kannst du sicherstellen, dass deine Joomla-Website sowohl benutzerfreundlich als auch für Suchmaschinen optimiert ist. Jede Einstellung trägt dazu bei, die Sichtbarkeit und die Nutzererfahrung zu verbessern, ohne unnötige Risiken einzugehen.
 
 ---
