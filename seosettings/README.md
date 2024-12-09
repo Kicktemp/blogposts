@@ -338,13 +338,8 @@ Mit diesen SEO-Einstellungen kannst du sicherstellen, dass deine Joomla-Website 
 
 ### **6. Fazit**
 
-Gemeinsam haben wir die URL-Struktur optimiert, die neuen Funktionen des SEF-Plugins genutzt und Meta-Daten individuell angepasst. Mit diesen Einstellungen ist deine Joomla-Website bestens für Suchmaschinen vorbereitet und bietet eine bessere Nutzererfahrung.
+Als Entwickler bei der Kicktemp GmbH ist es mir wichtig, mein Wissen mit dir zu teilen und dir dabei zu helfen, das Beste aus deiner Joomla-Website herauszuholen. Mit den richtigen SEO-Einstellungen in Joomla 5.2 legst du den Grundstein für eine erfolgreiche Online-Präsenz. Saubere URLs, optimale Meta-Daten und das neue SEF-Plugin sorgen dafür, dass deine Inhalte sowohl für Nutzer als auch Suchmaschinen perfekt aufbereitet sind. Die detaillierten Anleitungen in diesem Artikel sowie das begleitende YouTube-Video machen die Umsetzung einfach und nachvollziehbar. Egal, ob Anfänger oder Profi – mit diesen Tipps bringst du deine Joomla-Website nachhaltig nach vorne. Probier es aus und lass dich überzeugen!
 
-Begleitend zu diesem Artikel findest du ein **Schritt-für-Schritt-Video** auf YouTube:  
-[**Platzhalter für YouTube-Link**]
+Begleitend zu diesem Artikel findest du ein **Schritt-für-Schritt-Video** auf YouTube:  [ **https://youtu.be/nr7r7ognC-w**](https://youtu.be/nr7r7ognC-w)
 
 Ich freue mich über deine Fragen und Anregungen – nutze gerne die Kommentarfunktion im Video, und ich helfe dir weiter!
-
----
-
-Soll ich noch weitere Details hinzufügen oder etwas anpassen? 😊
