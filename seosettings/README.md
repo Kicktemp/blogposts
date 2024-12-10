@@ -201,6 +201,8 @@ Das Feld **Website-Domain** ist nicht geeignet, um "korrekte" self-referencing C
 
 Für Websites, die self-referencing Canonical Tags benötigen, sollten Sie sich im Bereich von [**Drittanbieter-Erweiterungen**](https://extensions.joomla.org/instant-search/?jed_live%5Bquery%5D=canonical) umsehen. Es gibt spezialisierte Canonical-Plugins, die diese Problematik besser adressieren und flexibler implementiert sind.
 
+[Joomla Forumpost](https://forum.joomla.de/thread/21679-j5-2-canonical-ist-das-so-korrekt-oder-die-b%C3%BCchse-der-pandorra/)
+
 ---
 
 #### **4.2 Dateiendung durch Weiterleitung erzwingen**
