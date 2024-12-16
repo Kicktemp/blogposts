@@ -1,3 +1,4 @@
+![SEO.jpg](SEO.jpg)
 # **Joomla SEO: Tipps und Best Practices**
 
 ---
@@ -116,4 +117,5 @@ Google Lighthouse ist ein mächtiges Tool, um die Leistung, SEO und Nutzerfreund
 
 SEO ist in Joomla kein Hexenwerk – mit der richtigen Grundkonfiguration, optimierten Meta-Daten, schnellem Hosting und regelmäßigen Prüfungen erreichst du bessere Rankings und ein optimales Nutzererlebnis. Dieser Leitfaden bietet dir die wichtigsten Maßnahmen, um durchzustarten.
 
-Hast du noch Fragen oder brauchst Unterstützung? Teile deine Erfahrungen in den Kommentaren oder melde dich bei mir! 😊
+Hast du noch Fragen oder brauchst Unterstützung? Teile 
+😊
