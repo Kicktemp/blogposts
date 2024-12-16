@@ -176,15 +176,32 @@ Für maximale Kompatibilität und Klarheit ist es jedoch oft besser, diese Optio
 
 ### **4. SEF-Plugin in Joomla 5.2**
 ![img_4.png](img_4.png)
-#### **4.1 Website-Domain und Canonical Tag**
 
-Das Hinzufügen einer Website-Domain im SEF-Plugin bewirkt, dass Joomla automatisch ein Canonical-Tag im Head-Bereich jeder Seite einfügt. Dieses Tag definiert die bevorzugte URL für die jeweilige Seite und signalisiert Suchmaschinen, dass es sich um die "kanonische" Version handelt.
+### 4.1 Website-Domain und Canonical Tag
 
-- **Beispiel für Canonical Tag:**  
-  `<link rel="canonical" href="https://example.com/typography" />`
+Das Feld **Website-Domain** im SEF-Plugin von Joomla hat einen spezifischen Use Case, der oft missverstanden wird. Es ist nicht dazu gedacht, allgemein gültige (self-referencing) Canonical Tags für die gesamte Website zu erstellen. Stattdessen dient es einem spezifischen Szenario:
 
-**Vorteil:**  
-Canonical-Tags verhindern, dass dieselbe Seite unter verschiedenen URL-Varianten (z. B. mit und ohne „www“ oder mit zusätzlichen Query-Parametern) indexiert wird. Suchmaschinen erkennen die bevorzugte URL und konsolidieren den SEO-Wert auf diese eine Version. Dies verbessert die Konsistenz und verhindert Ranking-Verluste durch doppelte Inhalte.
+#### **Use Case des Website-Domain-Felds**
+
+Das Feld ist nützlich für Websites, die unter mehreren Domains ohne Redirects erreichbar sind, z. B. `domain.tld` und `domain2.tld`. In diesem Fall kann die primäre Domain über dieses Feld definiert werden. Joomla verwendet die definierte Domain, um Canonical Tags zu generieren, die auf die primäre Domain verweisen. Dies dient dazu, Duplicate Content zwischen den Domains zu vermeiden.
+
+#### **Einschränkungen und Probleme**
+
+Die aktuelle Implementierung des Felds hat jedoch einige Schwächen:
+- Es erfolgt keine Prüfung darauf, ob unnötige Query-Parameter in der URL enthalten sind.
+- Die Logik ist schlicht und berücksichtigt keine komplexeren Strukturen, wie sie in Joomla oft vorkommen (z. B. Artikel, die über mehrere Menüeinträge mit unterschiedlichen URLs erreichbar sind).
+
+Dies kann in der Praxis zu unerwünschten Ergebnissen führen und mehr Probleme schaffen, als es löst. Aus diesem Grund ist dieses Feature umstritten und wird möglicherweise in zukünftigen Versionen entfernt.
+
+#### **Korrekte Canonical Tags**
+
+Das Feld **Website-Domain** ist nicht geeignet, um "korrekte" self-referencing Canonical Tags für die gesamte Seite zu erstellen. Joomla unterscheidet zwischen Menüstruktur und Contentstruktur, was die automatische Bestimmung eines primären Links erschwert oder unmöglich macht. 
+
+#### **Empfehlung**
+
+Für Websites, die self-referencing Canonical Tags benötigen, sollten Sie sich im Bereich von [**Drittanbieter-Erweiterungen**](https://extensions.joomla.org/instant-search/?jed_live%5Bquery%5D=canonical) umsehen. Es gibt spezialisierte Canonical-Plugins, die diese Problematik besser adressieren und flexibler implementiert sind.
+
+[Joomla Forumpost](https://forum.joomla.de/thread/21679-j5-2-canonical-ist-das-so-korrekt-oder-die-b%C3%BCchse-der-pandorra/)
 
 ---
 
